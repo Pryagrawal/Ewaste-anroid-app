@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EwasteMainPage">
+
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/imageview1"
+      android:layout_width="195dp"
+      android:layout_height="265dp"
+      android:paddingLeft="50dp"
+      android:paddingTop="50dp"
+      android:src="@drawable/recyclingcompanies"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      android:text="Recycling Companies"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/imageview1"
+      android:onClick="some_btn"/>
+
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/imageview2"
+      android:layout_width="195dp"
+      android:layout_height="220dp"
+      android:layout_marginTop="28dp"
+      android:paddingLeft="50dp"
+      android:paddingTop="50dp"
+      android:src="@drawable/galleryicon"
+      app:layout_constraintLeft_toRightOf="@id/imageview1"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="88dp"
+      android:layout_marginTop="16dp"
+      android:onClick="gallery_btn"
+      android:text="Gallery"
+      app:layout_constraintLeft_toRightOf="@id/button1"
+      app:layout_constraintTop_toBottomOf="@id/imageview2"
+      tools:ignore="MissingConstraints" />
+
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/imageview3"
+      android:layout_width="202dp"
+      android:layout_height="270dp"
+      android:paddingLeft="50dp"
+      android:paddingTop="50dp"
+      android:src="@drawable/coll"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/button1" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="32dp"
+      android:text="Collection Points"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/imageview3"
+      android:onClick="collpoint_btn"/>
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/imageview4"
+      android:layout_width="190dp"
+      android:layout_height="183dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="48dp"
+      android:paddingLeft="50dp"
+      android:paddingTop="50dp"
+      android:src="@drawable/posticon"
+      app:layout_constraintLeft_toRightOf="@id/imageview3"
+      app:layout_constraintTop_toBottomOf="@id/button2" />
+
+  <Button
+      android:id="@+id/button4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="96dp"
+      android:layout_marginTop="12dp"
+      android:onClick="post_btn"
+      android:text="Post"
+      app:layout_constraintLeft_toRightOf="@id/button3"
+      app:layout_constraintTop_toBottomOf="@id/imageview4"
+      tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

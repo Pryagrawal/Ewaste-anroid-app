@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "561775714558",
+    "firebase_url": "https://ewaste-app.firebaseio.com",
+    "project_id": "ewaste-app",
+    "storage_bucket": "ewaste-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561775714558:android:e380b770919459ee5f85af",
+        "android_client_info": {
+          "package_name": "com.example.android.ewasteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561775714558-f8coeko27c3vd2a7tnoj0a4ikd100r0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHeVldNcUUt7L2rMEIbuaEDyNzDKKgN-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561775714558-f8coeko27c3vd2a7tnoj0a4ikd100r0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
